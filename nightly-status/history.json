@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T08:48:24.086490+00:00",
+  "last_updated": "2026-06-26T20:01:55.648097+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
@@ -22,7 +22,7 @@
     {
       "date": "2026-06-26",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "queued",
       "orchestrator_url": "https://github.com/lin-erica/rl/actions/runs/28227453425",
       "orchestrator_run_id": 28227453425,
       "workflows": {
