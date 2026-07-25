@@ -1,34 +1,34 @@
 {
-  "last_updated": "2026-07-25T07:49:09.456706+00:00",
+  "last_updated": "2026-07-25T19:20:37.527979+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
       "runs_with_data": 7,
-      "total_workflow_runs": 72,
-      "total_success": 63,
+      "total_workflow_runs": 73,
+      "total_success": 55,
       "total_failure": 9,
-      "success_rate": 87.5
+      "success_rate": 75.3
     },
     "last_30_days": {
       "days": 30,
       "runs_with_data": 30,
-      "total_workflow_runs": 309,
-      "total_success": 270,
+      "total_workflow_runs": 310,
+      "total_success": 262,
       "total_failure": 39,
-      "success_rate": 87.4
+      "success_rate": 84.5
     }
   },
   "history": [
     {
       "date": "2026-07-25",
       "orchestrator_ran": true,
-      "orchestrator_status": "pending",
+      "orchestrator_status": "failure",
       "orchestrator_url": "https://github.com/lin-erica/rl/actions/runs/30149924820",
       "orchestrator_run_id": 30149924820,
       "workflows": {
         "test-linux.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/lin-erica/rl/actions/runs/30149924820/job/89658442176",
           "display_name": "Linux Tests"
         },
@@ -45,44 +45,44 @@
           "display_name": "Habitat Tests"
         },
         "test-linux-tutorials.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/lin-erica/rl/actions/runs/30149924820/job/89658441129",
           "display_name": "Tutorials Tests"
         },
         "test-linux-sota.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/lin-erica/rl/actions/runs/30149924820/job/89658441082",
           "display_name": "SOTA Tests"
         },
         "test-linux-libs.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/lin-erica/rl/actions/runs/30149924820/job/89658441697",
           "display_name": "Libs Tests"
         },
         "test-windows-optdepts.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/lin-erica/rl/actions/runs/30149924820/job/89658441099",
           "display_name": "Windows Tests"
         },
         "lint.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/lin-erica/rl/actions/runs/30149924820/job/89658441230",
           "display_name": "Lint"
         },
         "docs.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/lin-erica/rl/actions/runs/30149924820/job/89658441181",
           "display_name": "Documentation"
         },
         "benchmarks.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/lin-erica/rl/actions/runs/30149924820/job/89658441096",
           "display_name": "Benchmarks"
         },
@@ -105,8 +105,8 @@
           "display_name": "Wheels (Linux)"
         },
         "build-wheels-m1.yml": {
-          "status": "success",
-          "conclusion": "success",
+          "status": "cancelled",
+          "conclusion": "cancelled",
           "url": "https://github.com/lin-erica/rl/actions/runs/30149924820/job/89658538390",
           "display_name": "Wheels (M1)"
         },
@@ -125,11 +125,11 @@
       },
       "summary": {
         "total": 16,
-        "success": 9,
+        "success": 1,
         "failure": 1,
-        "skipped": 6,
-        "other": 0,
-        "success_rate": 90.0
+        "skipped": 5,
+        "other": 9,
+        "success_rate": 9.1
       }
     },
     {
