@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-10-03T20:57:37.981370+00:00",
+  "last_updated": "2026-10-04T11:29:47.075894+00:00",
   "stats": {
     "last_7_days": {
       "days": 7,
       "runs_with_data": 7,
-      "total_workflow_runs": 71,
+      "total_workflow_runs": 73,
       "total_success": 63,
-      "total_failure": 8,
-      "success_rate": 88.7
+      "total_failure": 10,
+      "success_rate": 86.3
     },
     "last_30_days": {
       "days": 30,
@@ -19,6 +19,119 @@
     }
   },
   "history": [
+    {
+      "date": "2026-10-04",
+      "orchestrator_ran": true,
+      "orchestrator_status": "pending",
+      "orchestrator_url": "https://github.com/lin-erica/rl/actions/runs/37198675923",
+      "orchestrator_run_id": 37198675923,
+      "workflows": {
+        "test-linux.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425702681",
+          "display_name": "Linux Tests"
+        },
+        "test-linux-llm.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425702476",
+          "display_name": "LLM Tests"
+        },
+        "test-linux-habitat.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425702596",
+          "display_name": "Habitat Tests"
+        },
+        "test-linux-tutorials.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425702922",
+          "display_name": "Tutorials Tests"
+        },
+        "test-linux-sota.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425703053",
+          "display_name": "SOTA Tests"
+        },
+        "test-linux-libs.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425702347",
+          "display_name": "Libs Tests"
+        },
+        "test-windows-optdepts.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425702988",
+          "display_name": "Windows Tests"
+        },
+        "lint.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425702455",
+          "display_name": "Lint"
+        },
+        "docs.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425703067",
+          "display_name": "Documentation"
+        },
+        "benchmarks.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425702066",
+          "display_name": "Benchmarks"
+        },
+        "validate-test-partitioning.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425701955",
+          "display_name": "Test Partitioning"
+        },
+        "nightly_build.yml": {
+          "status": "skipped",
+          "conclusion": "skipped",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425702536",
+          "display_name": "Nightly Build"
+        },
+        "build-wheels-linux.yml": {
+          "status": "failure",
+          "conclusion": "failure",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425702526",
+          "display_name": "Wheels (Linux)"
+        },
+        "build-wheels-m1.yml": {
+          "status": "failure",
+          "conclusion": "failure",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111425918417",
+          "display_name": "Wheels (M1)"
+        },
+        "build-wheels-windows.yml": {
+          "status": "success",
+          "conclusion": "success",
+          "url": "https://github.com/lin-erica/rl/actions/runs/37198675923/job/111426249339",
+          "display_name": "Wheels (Windows)"
+        },
+        "build-wheels-aarch64-linux.yml": {
+          "status": "skipped",
+          "conclusion": null,
+          "url": null,
+          "display_name": "Wheels (Aarch64)"
+        }
+      },
+      "summary": {
+        "total": 16,
+        "success": 9,
+        "failure": 2,
+        "skipped": 5,
+        "other": 0,
+        "success_rate": 81.8
+      }
+    },
     {
       "date": "2026-10-03",
       "orchestrator_ran": true,
@@ -10074,119 +10187,6 @@
         "skipped": 6,
         "other": 0,
         "success_rate": 90.0
-      }
-    },
-    {
-      "date": "2026-07-06",
-      "orchestrator_ran": true,
-      "orchestrator_status": "queued",
-      "orchestrator_url": "https://github.com/lin-erica/rl/actions/runs/28782921775",
-      "orchestrator_run_id": 28782921775,
-      "workflows": {
-        "test-linux.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342667330",
-          "display_name": "Linux Tests"
-        },
-        "test-linux-llm.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342667224",
-          "display_name": "LLM Tests"
-        },
-        "test-linux-habitat.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342666948",
-          "display_name": "Habitat Tests"
-        },
-        "test-linux-tutorials.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342667324",
-          "display_name": "Tutorials Tests"
-        },
-        "test-linux-sota.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342667210",
-          "display_name": "SOTA Tests"
-        },
-        "test-linux-libs.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342667148",
-          "display_name": "Libs Tests"
-        },
-        "test-windows-optdepts.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342667619",
-          "display_name": "Windows Tests"
-        },
-        "lint.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342667171",
-          "display_name": "Lint"
-        },
-        "docs.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342667562",
-          "display_name": "Documentation"
-        },
-        "benchmarks.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342666971",
-          "display_name": "Benchmarks"
-        },
-        "validate-test-partitioning.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342666707",
-          "display_name": "Test Partitioning"
-        },
-        "nightly_build.yml": {
-          "status": "skipped",
-          "conclusion": "skipped",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342667099",
-          "display_name": "Nightly Build"
-        },
-        "build-wheels-linux.yml": {
-          "status": "failure",
-          "conclusion": "failure",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342667123",
-          "display_name": "Wheels (Linux)"
-        },
-        "build-wheels-m1.yml": {
-          "status": "failure",
-          "conclusion": "failure",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85342950946",
-          "display_name": "Wheels (M1)"
-        },
-        "build-wheels-windows.yml": {
-          "status": "success",
-          "conclusion": "success",
-          "url": "https://github.com/lin-erica/rl/actions/runs/28782921775/job/85343154543",
-          "display_name": "Wheels (Windows)"
-        },
-        "build-wheels-aarch64-linux.yml": {
-          "status": "skipped",
-          "conclusion": null,
-          "url": null,
-          "display_name": "Wheels (Aarch64)"
-        }
-      },
-      "summary": {
-        "total": 16,
-        "success": 9,
-        "failure": 2,
-        "skipped": 5,
-        "other": 0,
-        "success_rate": 81.8
       }
     }
   ]
